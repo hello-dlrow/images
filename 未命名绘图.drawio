@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gspuCi2Y_kV68EbQ0AXD-1" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-1" value="MCU" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="287.5" y="312.5" width="152.5" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -14,13 +14,10 @@
           <mxGeometry x="490" y="255" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="360" width="50" height="40" as="geometry" />
+          <mxGeometry x="176.25" y="339" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-6" value="IMU" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="175" y="400" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gspuCi2Y_kV68EbQ0AXD-7" value="MCU" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="420" width="50" height="30" as="geometry" />
+          <mxGeometry x="176.25" y="379" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-8" value="Raspberry 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="335" y="220" width="90" height="30" as="geometry" />
@@ -83,12 +80,12 @@
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-28" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="325" y="389.65" as="sourcePoint" />
-            <mxPoint x="230" y="389.30999999999995" as="targetPoint" />
+            <mxPoint x="326.25" y="353.65" as="sourcePoint" />
+            <mxPoint x="231.25" y="353.30999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-29" value="I2C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="360" width="40" height="30" as="geometry" />
+          <mxGeometry x="261.25" y="324" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-30" value="UART" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="330" width="60" height="30" as="geometry" />
@@ -109,7 +106,7 @@
           <mxGeometry x="415" y="360" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-37" value="传感器数据/指令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="410" width="110" height="30" as="geometry" />
+          <mxGeometry x="230" y="370" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-38" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="268" width="80" height="40" as="geometry" />
@@ -124,7 +121,61 @@
           <mxGeometry x="245" y="248" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gspuCi2Y_kV68EbQ0AXD-43" value="指令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="255" y="298" width="50" height="30" as="geometry" />
+          <mxGeometry x="100" y="294" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-44" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="268" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-45" value="controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="308" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-46" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" vertex="1" parent="1">
+          <mxGeometry x="100" y="274" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-48" value="ESC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326.25" y="490" width="75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-49" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="363" y="490" as="sourcePoint" />
+            <mxPoint x="363.40999999999997" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-50" value="PWM油门/FOC控制指令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-51" value="M" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="490" y="495" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-52" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="524.66" as="sourcePoint" />
+            <mxPoint x="480" y="524.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-53" value="M" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="226.25" y="440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-54" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=2.7586206896551726;startSize=5.841379310344828;endWidth=2.7586206896551726;endSize=5.841379310344828;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="455" as="sourcePoint" />
+            <mxPoint x="320" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-55" value="舵机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="221.25" y="490" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-56" value="马达" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="560" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-57" value="PWM方向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="261.25" y="445" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-58" value="BOM：&lt;div&gt;&lt;div&gt;1. PTG2R&lt;/div&gt;&lt;div&gt;2. Raspberry 5 + IMX219 camera&lt;/div&gt;&lt;div&gt;3. MPU9250&lt;/div&gt;&lt;div&gt;4. RF206s receiver&lt;/div&gt;&lt;div&gt;5. WFLY ET10 controller&lt;/div&gt;&lt;div&gt;6. STM32f103/ESP32&lt;/div&gt;&lt;div&gt;7. ODrive mini FOC controller&lt;/div&gt;&lt;div&gt;8. hobbywing quicrun 3650 brushless motor + 10BL120G2ESC&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="590" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gspuCi2Y_kV68EbQ0AXD-60" value="功能：&lt;div&gt;1. 自动识别道路&lt;/div&gt;&lt;div&gt;2. 自动跑直线&lt;/div&gt;&lt;div&gt;3. 通过FOC调节电机扭矩&lt;/div&gt;&lt;div&gt;4. 自动刹车&lt;/div&gt;&lt;div&gt;5. G值过大自动双闪&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="740" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
