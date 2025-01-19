@@ -1,1 +1,4 @@
-![Bachelor's degree as a percentage of total population in Metro Vancouver](./Legend.png)
+(./Legend.png)
+(./Pop_Density.png)
+(./men_single.png)
+(./women_single.png)
